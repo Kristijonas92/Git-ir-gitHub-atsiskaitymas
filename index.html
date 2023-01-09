@@ -9,13 +9,14 @@
     <script src="./scripts/main.js" defer></script>
 </head>
 <body>
+    <img class="gem" src="./resources/gem-regular.svg" alt="Gem">
     <main>
         <div>
             <button class="tab-button" onclick="openTab(event, 'intro')" id="default-tab">INTRO</button>
             <button class="tab-button" onclick="openTab(event, 'work')">WORK</button>
             <button class="tab-button" onclick="openTab(event, 'about')">ABOUT</button>
             <button class="tab-button" onclick="openTab(event, 'contact')">CONTACT</button>
-            <button class="tab-close" onclick="closeTab()">X</button>
+            <button class="tab-close" onclick="closeTab(event, 'close')"><img class="tab-close" src="./resources/xmark-solid.svg" alt="closeTab"></button>
           </div>
           
           <div id="intro" class="tab-content">

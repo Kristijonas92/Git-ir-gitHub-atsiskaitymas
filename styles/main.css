@@ -1,3 +1,29 @@
 .tab-close:hover {
     transform: rotate(90deg);
-  }
+}
+
+.tab-close {
+    background-color: black;
+    color: #000000;
+    cursor: pointer;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    transition: transform 0.2s;
+}
+
+body {
+    background-image: url("../resources/bg-overlay.png");
+    background-image: url("../resources/bg.jpg");
+}
+
+img {
+    height: 533px;
+    width: 800px;
+}
+
+.tab-button {
+    border: white;
+    outline: solid;
+    border-radius: 2px;
+}
