@@ -24,12 +24,12 @@
           INNOVATION THAT WILL SHAPE HOW WE CONNECT IN THE WORLD AN OPPORTUNITY FOR EVERYBODY
         </p>
       </div>
-          <div>
-              <button class="tab-button" onclick="openTab(event, 'intro')" id="default-tab">INTRO</button>
-              <button class="tab-button" onclick="openTab(event, 'work')">WORK</button>
-              <button class="tab-button" onclick="openTab(event, 'about')">ABOUT</button>
-              <button class="tab-button" onclick="openTab(event, 'contact')">CONTACT</button>
-              <button class="tab-close" onclick="closeTab(event, 'close')"><img class="x" src="./resources/xmark-solid.svg" alt="closeTab"></button>
+          <div class="button-wrapper">
+              <div class="tab-button" onclick="openTab(event, 'intro')" id="default-tab">INTRO</div>
+              <div class="tab-button" onclick="openTab(event, 'work')">WORK</div>
+              <div class="tab-button" onclick="openTab(event, 'about')">ABOUT</div>
+              <div class="tab-button" onclick="openTab(event, 'contact')">CONTACT</div>
+              
           </div>
           
           <div id="intro" class="tab-content">
@@ -50,6 +50,7 @@
           </div>
           
           <div id="work" class="tab-content">
+            <div class="tab-close" onclick="closeTab(event, 'close')"><img class="x" src="./resources/xmark-solid.svg" alt="closeTab"></div>
             <img class="tab" src="./resources/tab-2.jpg" alt="work-picture">
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint dolorum iusto consequuntur rem sed impedit, autem reiciendis deleniti dignissimos magni quibusdam voluptates dolores ex possimus adipisci animi sunt sequi. Iusto!
