@@ -10,31 +10,36 @@
 </head>
 <body>
     <header>
+        
+    </header>
+      <div class="center">
         <div class="gem-wrapper">
            <img class="gem" src="./resources/gem-regular.svg" alt="Gem"> 
         </div>
-        <div class="vertical-line" style="height: 80px;"></div>
-    </header>
-    <main>
-      <div class="horizontal-line" style="width: 80px;">
+        <div class="vertical-line" style="height: 100px;"></div>
+      <div class="horizontal-line" style="width: 900px;"></div>
+      <div>
         <h1>
           METAVERSE
         </h1>
-        <p>
+        <p class="will">
           INNOVATION THAT WILL SHAPE HOW WE CONNECT IN THE WORLD AN OPPORTUNITY FOR EVERYBODY
         </p>
+      </div>
+      <div class="horizontal-line" style="width: 900px;"></div>
+      <div class="vertical-line" style="height: 100px;"></div>
       </div>
           <div class="button-wrapper">
               <div class="tab-button" onclick="openTab(event, 'intro')" id="default-tab">INTRO</div>
               <div class="tab-button" onclick="openTab(event, 'work')">WORK</div>
               <div class="tab-button" onclick="openTab(event, 'about')">ABOUT</div>
-              <div class="tab-button" onclick="openTab(event, 'contact')">CONTACT</div>
-              
+              <div class="tab-button" onclick="openTab(event, 'contact')">CONTACT</div>  
           </div>
           
           <div id="intro" class="tab-content">
+            <div class="tab-close" onclick="closeTab(event, 'close')"><img class="x" src="./resources/xmark-solid.svg" alt="closeTab"></div>
             <div class="video-wrapper">
-              <video id="video1" alt="intro-video">
+              <video controls alt="intro-video">
             <source src="/resources/tab-1.mp4" type="video/mp4">
             </video>
               </div>
@@ -60,6 +65,7 @@
           </div>
           
           <div id="about" class="tab-content">
+            <div class="tab-close" onclick="closeTab(event, 'close')"><img class="x" src="./resources/xmark-solid.svg" alt="closeTab"></div>
             <img class="tab" src="./resources/tab-3.jpg" alt="about-picture">
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt aspernatur dolore iusto, deleniti illum blanditiis, incidunt reiciendis pariatur modi, corporis ipsam facilis obcaecati? Quasi nostrum, exercitationem iusto quae quam laudantium.
@@ -69,6 +75,7 @@
           </div>
 
           <div id="contact" class="tab-content">
+            <div class="tab-close" onclick="closeTab(event, 'close')"><img class="x" src="./resources/xmark-solid.svg" alt="closeTab"></div>
             <img class="tab" src="./resources/tab-4.jpg" alt="contact-picture">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nobis neque debitis, nostrum at tempora obcaecati esse eum molestiae repellat excepturi accusamus mollitia consequuntur vero. Maiores temporibus eveniet modi alias.
@@ -76,6 +83,5 @@
                 Rerum incidunt hic beatae qui! Sit, laborum? Officiis, necessitatibus, minima dignissimos unde consectetur doloribus illo aliquid assumenda non, eius fugit totam quo? Voluptas pariatur non ex optio labore magnam exercitationem?
             </p>
           </div>
-    </main>
 </body>
 </html>
