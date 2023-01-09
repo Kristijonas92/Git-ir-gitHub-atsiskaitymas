@@ -9,6 +9,36 @@
     <script src="./scripts/main.js" defer></script>
 </head>
 <body>
-    
+    <main>
+        <div>
+            <button class="tab-button" onclick="openTab(event, 'intro')" id="default-tab">INTRO</button>
+            <button class="tab-button" onclick="openTab(event, 'work')">WORK</button>
+            <button class="tab-button" onclick="openTab(event, 'about')">ABOUT</button>
+            <button class="tab-button" onclick="openTab(event, 'contact')">CONTACT</button>
+          </div>
+          
+          <div id="intro" class="tab-content active">
+            <video width="320" height="240" autoplay>
+            <source src="/resources/tab-1.mp4" type="video/mp4">
+            </video>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ex optio officia corporis deleniti aspernatur iure sunt. Voluptate quaerat dolorum aut, optio officia dolorem consequatur ad, quam, magnam voluptatem provident?
+                Quis, expedita temporibus fugit similique ducimus explicabo illum, sint adipisci id voluptatum eius quaerat blanditiis iusto at nulla natus consequuntur nesciunt aspernatur, nam animi optio recusandae aut incidunt? Aliquid, similique.
+                Pariatur repellat qui nemo ratione veniam. Pariatur, rerum! Deserunt ullam veniam obcaecati recusandae cum esse hic ratione, suscipit quod aspernatur nulla at optio natus tempore. Temporibus quasi error deserunt. Magnam?
+            </p>
+          </div>
+          
+          <div id="work" class="tab-content">
+            Tab 2 content goes here
+          </div>
+          
+          <div id="about" class="tab-content">
+            Tab 3 content goes here
+          </div>
+
+          <div id="contact" class="tab-content">
+            Tab 4 content goes here
+          </div>
+    </main>
 </body>
 </html>
