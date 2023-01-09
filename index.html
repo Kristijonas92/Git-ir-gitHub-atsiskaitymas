@@ -15,11 +15,11 @@
             <button class="tab-button" onclick="openTab(event, 'work')">WORK</button>
             <button class="tab-button" onclick="openTab(event, 'about')">ABOUT</button>
             <button class="tab-button" onclick="openTab(event, 'contact')">CONTACT</button>
-            <button class="tab-button" onclick="closeTab()">Close Tab</button>
+            <button class="tab-close" onclick="closeTab()">X</button>
           </div>
           
           <div id="intro" class="tab-content active">
-            <video alt="intro-video" autoplay>
+            <video id="video1" alt="intro-video" autoplay>
             <source src="/resources/tab-1.mp4" type="video/mp4">
             </video>
             <p>
