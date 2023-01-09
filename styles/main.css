@@ -3,8 +3,8 @@
 }
 
 .tab-close {
-    background-color: black;
-    color: #000000;
+    background-color: transparent;
+    color: #ffffff;
     cursor: pointer;
     padding: 10px 10px;
     border: none;
@@ -17,13 +17,48 @@ body {
     background-image: url("../resources/bg.jpg");
 }
 
-img {
+img.tab {
     height: 533px;
     width: 800px;
 }
 
+.button-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 .tab-button {
-    border: white;
-    outline: solid;
-    border-radius: 2px;
+    border: 1px solid white;
+}
+.tab-button:hover{
+    cursor: pointer;
+}
+.gem-wrapper {
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.vertical-line{
+    border-left: 1px solid white;
+    width: 1px;
+}
+
+.horizontal-line{
+    border-top: 1px solid white;
+    height: 1px;
+}
+
+.video-wrapper {
+    height: 533px;
+    width: 800px;  
+}
+
+#video1{
+    height: 100%;
+    width: 100%;
 }
