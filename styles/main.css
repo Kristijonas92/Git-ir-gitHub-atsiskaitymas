@@ -32,6 +32,10 @@ img.tab {
 
 .tab-button {
     border: 1px solid white;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 10px 10px 10px;
+    font-size: 12px;
 }
 
 .tab-button:hover{
